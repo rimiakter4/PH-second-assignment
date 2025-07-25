@@ -174,14 +174,16 @@ main>section{
              
             .flower{
                
+               
          display: flex;
-         justify-content: space-around;
+         justify-content: space-around; 
          max-width: 1140px;
-         height: 420px;
+         height: 100%;
          margin: 0 auto;
          gap: 20px;
          position: relative;
             }
+          
             .common{
                   text-align: center;align-items: center;
                    border-radius: 14px;
@@ -216,7 +218,6 @@ main>section{
             }
             .box-1{
               background-image:linear-gradient(rgb(0, 0,0,0.3) ,rgb(0,0,0,0.5)),url(../assets/deal-ana.png);
-                /* background-image:  */
             
             width: 365px;
                 height: 198px;  
@@ -261,17 +262,18 @@ main>section{
                 align-items: center;
                 position: relative;
                 
-
               }
-
-
-
+              .join-bunch h1{
+                font-size: 3.2rem;
+                font-weight: bold;
+                margin-left: 200px
+              }
 
               .join-bunch{
                 
                position: absolute;
                margin-top: 190px;
-               margin-left: 310px;}
+               margin-left: 310px;} 
 
               .input{
                 width: 554px;
@@ -315,6 +317,9 @@ main>section{
         
           
               }
+              .ft-head p{
+                font-size: 22px;
+              }
               .ft-head img{
                
                 margin-bottom:10px 
@@ -322,6 +327,7 @@ main>section{
               .ft-links{
                 display: grid;
                 grid-template-columns: repeat(2,1fr);
+                font-size: 20px;
                 
               }
       .contact{
@@ -331,9 +337,7 @@ main>section{
       .twitter{
         margin-top: 10px
       }
-
-
-           @media screen and (max-width : 576px){
+ @media screen and (max-width : 576px){
               .banner{
             margin: 20px;
         }
@@ -432,7 +436,89 @@ width: 300px;
                 margin-bottom: 16px;
                 
               }
+              /* flower deals  */
+         @media (max-width: 768px) {
 
+.Latest-Deals{
+    margin-top:200px;
+}
+
+  .flower {
+    flex-direction: column;   
+    align-items: center; 
+        
+  }
+  
+
+  .box-1,.box-2{
+  width: 367px;             
+    height: 200px;           
+    margin-bottom: 20px;  
+    font-size: 1.25rem  ;
+ 
+  }
+  
+ 
+  .box-3 {
+    width: 367px;             
+    height: 200px;           
+    font-size: 1.25rem   
+  }
+
+
+  .deal-1 {
+    position: static;    
+    margin: 20px 0;           
+    text-align: center;
+  }
+}
+.join-section{
+    max-width: 500px;
+    height: 300px;
+ 
+}
+  .join-bunch{
+                 margin-top: 90px;
+               margin-left:-50px;
+          
+      }    .join-bunch h1{
+                font-size: 1.4rem;
+                    
+              }
+            .input{
+                width: 218px;
+                height: 50px;
+                margin-left: 80px;  
+                } 
+
+              .btn{
+                width:104px;
+                height: 50px;
+              } 
+
+                 /*  footer section */
+             .footer{
+                max-width:390px;
+                height: 880px;    display: flex;
+                flex-direction: column;
+            margin-top: 0px;
+                margin-bottom: 50px;
+                margin: 30px;
+              }
+              .ft-head img{
+                margin-bottom:20px;
+                height: 109px;
+                width: 180px; 
+              }
+              .ft-links{
+                display: grid;
+                grid-template-columns: repeat(1,1fr);
+                font-size: 22px;
+                margin-top: 100px;
+                gap: 20px;
+                
+              }
+      
         
       }
 
