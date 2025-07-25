@@ -20,7 +20,7 @@ span{
     color: #E95A08
 }
 .text-gray{
-    color: rgb(180, 171, 171)
+    color: rgba(0, 0, 0, 0.5)
 }
 .text-black {
     color: black
@@ -125,8 +125,93 @@ main>section{
                 text-align: center;
                 margin-bottom: 30px
              }
-           
+             /* flower and plant lover  */
 
+             .plants-lover{
+                display: flex;
+                flex: 1;
+                justify-content: space-between;
+                align-items: center;
+                margin-top: 200px
+                
+                
+             }
+             .flower-store{
+                max-width: 540px;
+                height: 590px;
+             }
+             .flower-plant{
+                max-width: 540px;
+                height: 520px;
+             position: relative;
+            
+             }
+             .flower-plant h1,.join-section h1{
+                       font-size: 3rem;
+                font-weight: bolder;
+                margin-bottom: 20px;
+
+             }
+            
+             .flower-description{
+                font-size: 1.5rem;
+                max-width: 550px;
+                
+             }
+              .flower-description li{
+                margin-bottom: 20px;
+                
+              }
+              .badge{
+                max-width: 286px;
+                height: 286px;
+                position: absolute;
+                margin-left: -240px;
+              margin-top: -160px;
+               
+              }
+
+              /* join section */
+
+              .join-section{
+                max-width: 1440px;
+                height: 530px;
+                margin: 0 auto;
+                margin-bottom: 120px;
+                margin-top: 130px;
+                background-image: url(../assets/news-letter-bg.png) ;
+                color: white;
+                text-align: center;
+                align-items: center;
+                position: relative;
+                
+
+              }
+              .join-bunch{
+                
+               position: absolute;
+               margin-top: 190px;
+               margin-left: 310px
+              }
+            
+              .input{
+                width: 554px;
+                height: 40px;
+                margin: 0 auto;
+                padding: 10px;
+                border-radius: 0px;
+                border: none
+              }
+              button{
+                width: 190px;
+                height: 40px;
+                background-color: #E95A08;
+                color: white;
+                border: none;
+             
+              }
+              
+      
 
 
            @media screen and (max-width : 576px){
@@ -182,7 +267,8 @@ width: 300px;
    .plants-container{
      display: grid;
     grid-template-columns: repeat(2,1fr);
-    max-width: 100%;
+    max-width: 300px;
+
 
     }
        .plant-title{
@@ -191,16 +277,45 @@ width: 300px;
         
         
     }
-    .plant-card{
-        /* width: 171px;
-        height: 340px;; */
-        flex: 1
-    }
+
     .plant-description{
         font-size: 0.8rem;
     }
+    .plants-lover{
+        display: flex;
+        flex-direction: column;
+    }
+    .flower-plant >.badge{
+        display: none;
+    }
+    .flower-store{
+        max-width: 900px;
+        height: 390px;
+    }
+    .flower-plant{
+        max-width: 361px;
+        height: 234px;
+    }
+    
+             .flower-plant h1{
+                       font-size: 1.5rem;
+                font-weight: bolder;
+                margin-bottom: 15px;
+
+             }
+               
+             .flower-description{
+                font-size: 1rem;
+                max-width: 360px;
+                
+             }
+              .flower-description li{
+                margin-bottom: 16px;
+                
+              }
 
         
-}
+      }
+
       
     
