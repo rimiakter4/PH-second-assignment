@@ -172,13 +172,14 @@ main>section{
               }
 
               /* join section */
+             
 
               .join-section{
-                max-width: 1440px;
+                    max-width: 1440px;
                 height: 530px;
-                margin: 0 auto;
+                         margin: 0 auto;
                 margin-bottom: 120px;
-                margin-top: 130px;
+                   margin-top: 130px;
                 background-image: url(../assets/news-letter-bg.png) ;
                 color: white;
                 text-align: center;
@@ -210,8 +211,38 @@ main>section{
                 border: none;
              
               }
-              
-      
+              /*  footer section */
+             .footer{
+                max-width: 1440px;
+                height: 200px;    display: flex;
+                justify-content: space-around;
+               
+             
+              }
+             
+              .ft-head{
+                width: 220px;
+                height: 100px;
+          
+        
+          
+              }
+              .ft-head img{
+               
+                margin-bottom:10px 
+              }
+              .ft-links{
+                display: grid;
+                grid-template-columns: repeat(2,1fr);
+                
+              }
+      .contact{
+        display: flex;
+        gap: 30px
+      }
+      .twitter{
+        margin-top: 10px
+      }
 
 
            @media screen and (max-width : 576px){
