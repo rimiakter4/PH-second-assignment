@@ -1,4 +1,11 @@
-  /* @import  "tailwindcss"; */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+.inter-flower {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
 .noto-serif-normal{
   font-family: "Noto Serif", serif;
   font-optical-sizing: auto;
@@ -105,16 +112,22 @@ main>section{
     }
     .plants-container{
         display: grid;
-        
+        width: 1140px;
+        height: auto;
         grid-template-columns: repeat(4,1fr);
         gap: 10px;
         margin-top: 50px;
     
     }
+     .plant-card img{
+    
+        width: 100%;
+    }
 
          .plant-card >button{
                 width: 100%;
                 height: 40px;
+                color: white;
               
                 background-color: #E95A08;
                 border: none
@@ -273,11 +286,11 @@ main>section{
                 
                position: absolute;
                margin-top: 190px;
-               margin-left: 310px;} 
+               margin-left: 220px;} 
 
               .input{
                 width: 554px;
-                height: 40px;
+                height: 50px;
                 margin: 0 auto;
                 padding: 10px;
                 border-radius: 0px;
@@ -290,7 +303,7 @@ main>section{
 
               .btn{
                 width: 190px;
-                height: 40px;
+                height: 50px;
                 background-color: #E95A08;
                 color: white;
                 border: none;
@@ -311,7 +324,7 @@ main>section{
               }
              
               .ft-head{
-                width: 220px;
+                width: 360px;
                 height: 100px;
           
         
@@ -322,7 +335,7 @@ main>section{
               }
               .ft-head img{
                
-                margin-bottom:10px 
+                margin-bottom:20px 
               }
               .ft-links{
                 display: grid;
@@ -351,11 +364,13 @@ main>section{
             width: 500px;
             
             
+            
         }
         .banner-title{
     line-height:30px;
     font-size: 1.5rem;
     font-weight: 600;
+    margin-left: 100px
 
 }
   .banner-right img{
@@ -367,6 +382,7 @@ main>section{
 .banner-description{
     width: 300px;
     font-size: 0.8rem;
+    margin-left: 100px;
     
 }
 .link {
@@ -386,11 +402,13 @@ width: 300px;
 }
 .our-plants{
     margin-top: 65px;
+    max-width: 200;
 }
    .plants-container{
      display: grid;
-    grid-template-columns: repeat(2,1fr);
-    max-width: 300px;
+    grid-template-columns:repeat(2,1fr);
+    max-width: 90%;
+    margin:0 auto;
 
 
     }
@@ -473,27 +491,31 @@ width: 300px;
   }
 }
 .join-section{
-    max-width: 500px;
+    max-width: 550px;
     height: 300px;
  
 }
   .join-bunch{
                  margin-top: 90px;
-               margin-left:-50px;
+               margin-left:-70px;
           
-      }    .join-bunch h1{
-                font-size: 1.4rem;
+      }  
+        .join-bunch> h1{
+                font-size: 1.3rem;
+                
+        
                     
               }
             .input{
-                width: 218px;
+                width: 200px;
                 height: 50px;
-                margin-left: 80px;  
+             
                 } 
 
               .btn{
-                width:104px;
+                width:110px;
                 height: 50px;
+                
               } 
 
                  /*  footer section */
@@ -519,8 +541,16 @@ width: 300px;
                 
               }
       
-        
-      }
+
+ 
+
+}
+
+
+
+
 
       
+
+    
     
