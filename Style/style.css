@@ -170,11 +170,86 @@ main>section{
               margin-top: -160px;
                
               }
+              /* flower deals */
+             
+            .flower{
+               
+         display: flex;
+         justify-content: space-around;
+         max-width: 1140px;
+         height: 420px;
+         margin: 0 auto;
+         gap: 20px;
+         position: relative;
+            }
+            .common{
+                  text-align: center;align-items: center;
+                   border-radius: 14px;
+                
 
-              /* join section */
+            }
+            .deal{
+                position: absolute;
+                margin-top: 90px;
+                margin-left: 90px;
+                font-size: 1.25rem;
+                color: white;
+
+
+
+
+            }
+            .deal a{
+                color: white;
+                font-size: 1rem
+            }
+            .deal-1{
+                     position: absolute;
+                margin-top: 180px;
+                margin-left: 160px
+
+            }
+            .deal-1 a{
+           
+                color: white;
+                font-size: 1.8rem
+            }
+            .box-1{
+              background-image:linear-gradient(rgb(0, 0,0,0.3) ,rgb(0,0,0,0.5)),url(../assets/deal-ana.png);
+                /* background-image:  */
+            
+            width: 365px;
+                height: 198px;  
+                margin-bottom: 20px;
+              
              
 
-              .join-section{
+            }
+            .box-2{
+                background-image:linear-gradient(rgb(0, 0,0,0.3) ,rgb(0,0,0,0.5)), url(../assets/deal-bloom.png);
+                background-repeat: no-repeat;
+                width: 365px;
+                height: 200px;
+                
+              
+             
+            }
+            .box-3{
+                background-image:linear-gradient(rgb(0, 0,0,0.3) ,rgb(0,0,0,0.5)), url(../assets/deal-zabo.png);
+                width: 740px;
+                  font-size: 2.5rem;
+                color: white
+             
+        
+
+            }
+            
+         
+
+
+
+              /* join section */
+                        .join-section{
                     max-width: 1440px;
                 height: 530px;
                          margin: 0 auto;
@@ -188,27 +263,38 @@ main>section{
                 
 
               }
+
+
+
+
               .join-bunch{
                 
                position: absolute;
                margin-top: 190px;
-               margin-left: 310px
-              }
-            
+               margin-left: 310px;}
+
               .input{
                 width: 554px;
                 height: 40px;
                 margin: 0 auto;
                 padding: 10px;
                 border-radius: 0px;
-                border: none
-              }
-              button{
+                border: none;
+            
+            
+        
+               
+                }
+
+              .btn{
                 width: 190px;
                 height: 40px;
                 background-color: #E95A08;
                 color: white;
                 border: none;
+                position: absolute
+          
+                
              
               }
               /*  footer section */
@@ -216,6 +302,8 @@ main>section{
                 max-width: 1440px;
                 height: 200px;    display: flex;
                 justify-content: space-around;
+                margin-left: 200px;
+                margin-bottom: 50px;
                
              
               }
