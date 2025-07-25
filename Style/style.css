@@ -73,6 +73,11 @@ main>section{
   margin-top: 100px;
      /* margin-left: 35px; */
 }
+.banner{
+     max-width: 1140px;
+    margin: 0px;
+}
+
 .banner-left {
   
     align-items: center;
@@ -320,7 +325,7 @@ main>section{
                 max-width: 1440px;
                 height: 200px;    display: flex;
                 justify-content: space-around;
-                margin-left: 200px;
+                margin-left: 100px;
                 margin-bottom: 50px;
                
              
@@ -381,7 +386,7 @@ main>section{
         margin-bottom: 20px;
        
     }
-
+   
 .banner-description{
     width: 300px;
     font-size: 0.8rem;
@@ -389,11 +394,13 @@ main>section{
     
 }
 .link {
-    display: none;
+    display:none;
     font-size: 1.5rem;
     
     font-weight: bolder
 }
+
+
 .nav-logo img{
     width:67px;
     height: 40px;
@@ -494,7 +501,7 @@ width: 300px;
   }
 }
 .join-section{
-    max-width: 550px;
+    max-width: 650px;
     height: 300px;
  
 }
